@@ -203,8 +203,11 @@ df = pd.read_csv("movie_dataset.csv")
 df.to_csv("cleaned_movie_dataset.csv", index=False)
 
 # Output the URL link to the Python file
-username = "your_username"
-repository_name = "python-scripts"
+username = "Auyane"
+repository_name = "AuyaneNgouessy_2024_python-scripts"
 file_name = "css4p01.py"
-url = f"https://github.com/{username}/{repository_name}/blob/main/{file_name}"
-print("URL link to the Python file:", url)
+username = "Auyane"
+repository_name = "AuyaneNgouessy_2024_python-scripts"
+file_name = "css4p01.py"
+url ="https://raw.githubusercontent.com/Auyane/AuyaneNgouessy_2024_python-scripts/main/movie_dataset.csv"
+print(url)
