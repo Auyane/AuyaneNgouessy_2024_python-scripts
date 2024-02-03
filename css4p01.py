@@ -43,7 +43,7 @@ print("Average revenue of all movies:", average_revenue_all_movies)
 
 
 ### Question 3: Average revenue of movies from 2015 to 2017: 63.099905660377345
-## so it is less than 40 Millions
+## so it is Between 50 and 80 Million
 
 # Filter the DataFrame for movies released between 2015 and 2017
 movies_2015_to_2017 = df_csv[(df_csv['Year'] >= 2015) & (df_csv['Year'] <= 2017)]
